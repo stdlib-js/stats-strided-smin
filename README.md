@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import smin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smin@deno/mod.js';
+import smin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smin@v0.1.1-deno/mod.js';
 ```
 
 #### smin( N, x, strideX )
@@ -145,7 +145,7 @@ var v = smin.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import smin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smin@deno/mod.js';
+import smin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smin@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
